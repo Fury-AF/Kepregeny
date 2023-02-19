@@ -1,0 +1,23 @@
+nav ul {
+  width: 100%;
+  height: 50px;
+  
+  background: black;
+  display: flex;
+  margin: auto;
+  justify-content: left;
+}
+li{
+    list-style-type: none;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(166, 28, 28);
+}

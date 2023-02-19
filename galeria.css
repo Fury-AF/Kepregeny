@@ -1,0 +1,11 @@
+#galery {
+    display: grid;
+}
+
+#galery {
+  grid-template-areas:
+    "a b c"
+    "d d d"
+    "e f g"
+    "h h h";
+}
