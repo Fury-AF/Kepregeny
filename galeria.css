@@ -5,16 +5,17 @@
 
 
 #galery {
-    display: flex;
-   justify-content:space-around;
+   display: flex;
+   justify-content:space-evenly;
    align-content: center;
    flex-wrap: wrap;
+   width: 70%;   
 }
 
 img {
   width: 150px;
   height: 200px;
-  padding: 5px;
+  padding-bottom: 5px;
 }
 .kep1{
   order: -7;
