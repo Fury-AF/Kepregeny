@@ -5,7 +5,7 @@ nav ul {
   background: black;
   display: flex;
   margin: auto;
-  justify-content: left;
+  justify-content: flex-start;
 }
 li{
     list-style-type: none;

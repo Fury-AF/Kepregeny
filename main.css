@@ -9,16 +9,14 @@
     box-sizing: border-box;
   }
 
-  :root {
-    
-  }
+
 
   main{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas:
       "h   h   h"
-      "asb ar ar"
+      "asb  ar ar"
       "f   f  f";
     grid-gap: 10px;
 

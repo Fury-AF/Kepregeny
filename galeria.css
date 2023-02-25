@@ -1,11 +1,51 @@
-#galery {
-    display: grid;
-}
+/* body{
+  display: flex;
+  align-items: center;
+} */
+
 
 #galery {
-  grid-template-areas:
-    "a b c"
-    "d d d"
-    "e f g"
-    "h h h";
+    display: flex;
+   justify-content:space-around;
+   align-content: center;
+   flex-wrap: wrap;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  padding: 5px;
+}
+.kep1{
+  order: -7;
+}
+.kep4{
+  order:-9;
+}
+.kep6{
+  order: -8;
+}
+.kep3{
+  order: -5;
+}
+.kep9{
+  order: -4;
+}
+.kep11{
+  order: -2;
+}
+.kep7{
+  order: -3;
+}
+.kep12{
+  order: -1;
+}
+.kep8{
+  order: 1;
+}
+.kep5{
+  order: 2;
+}
+.kep10{
+  order: 3;
 }
